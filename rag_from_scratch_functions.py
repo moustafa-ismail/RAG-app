@@ -15,7 +15,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, TextIteratorStream
 from transformers import pipeline
 from threading import Thread
 from langchain_huggingface.llms import HuggingFacePipeline
-from RAG_app.model_config_v11082024 import embedding_model
+from model_config import embedding_model
 
 
 
