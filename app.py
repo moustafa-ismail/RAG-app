@@ -142,7 +142,7 @@ def predict(messages, history, text_chunks_emb_df, pages_and_chunks_dict, text_c
 
 
 
-with gr.Blocks(title='ClickITS RAG',
+with gr.Blocks(title='RAG',
         css=".contain { display: flex !important; flex-direction: column !important; }"
     "#component-0, #component-3, #component-10, #component-8  { height: 100% !important; }"
     "#chatbot { flex-grow: 1 !important; overflow: auto !important;}"
@@ -152,10 +152,10 @@ with gr.Blocks(title='ClickITS RAG',
     # with gr.Row():
     gr.HTML(f"hello")
     
-    gr.Markdown("<img src='/file=click_its_logo.jpg'>")
+    # gr.Markdown("<img src='/file=click_its_logo.jpg'>")
 
     with gr.Row(equal_height=False):
-        gr.Markdown("# Click ITS Gen AI")
+        gr.Markdown("# Gen AI")
     with gr.Row(equal_height=False):
         with gr.Column(scale=3, ): 
             # gr.Markdown("<img src='/file=click_its_logo.jpg'>")
